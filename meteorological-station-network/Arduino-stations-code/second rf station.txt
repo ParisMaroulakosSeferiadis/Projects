@@ -1,0 +1,7 @@
+Οι δύο σταθμοί είναι πρακτικά ίδιοι το μόνο που αλλάζει είναι το Ide τους. Αρκεί λοιπόν να συνδέσω τον δεύτερο και να αλλάξω το ide στην αρχή και το delay στο τέλος
+Το 1.2 να γίνει 1.1 η αναλόγως ποιο έχω βάλει που και
+Το τελικό delay να είναι διαφορετικό για κάθε σταθμό
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The code for the two stations that using rf to communicate are practically the same. The only thing that chamges is the ide variable and final delay time.
+Ide variable should change to 1.2 for the second station
+Final delay  for the second station should be different from the first to avoid problems with the antenna of the reciever.
