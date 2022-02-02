@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>find_max_value</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<!-- Copyright (c) 2013 Remous-Aris Koutsiamanis. This file is part of DataStructuresAndAlgorithmsAssignments. 
+	DataStructuresAndAlgorithmsAssignments is free software: you can redistribute it and/or modify 
+	it under the terms of the GNU Affero Public License as published by the Free 
+	Software Foundation, either version 3 of the License, or (at your option) 
+	any later version. DataStructuresAndAlgorithmsAssignments is distributed in the hope that it will 
+	be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of 
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero Public 
+	License for more details. You should have received a copy of the GNU Affero 
+	Public License along with testing-framework. If not, see <http://www.gnu.org/licenses/>. 
+	Contributors: Remous-Aris Koutsiamanis - initial implementation -->
+</head>
+<body>
+
+<h2>
+  Εύρεση αρμονικού μέσου από πίνακα ακεραίων.
+</h2>
+
+<h2>Σύνοψη</h2>
+<p>
+  Σε αυτή την άσκηση πρέπει να γράψετε κώδικα που θα επιστρέφει τον <a href="https://en.wikipedia.org/wiki/Harmonic_mean">αρμονικό μέσο</a> ενός πίνακα με ακεραίους.
+</p>
+<h2>Περιγραφή</h2>
+Στο πρόγραμμα θα συμπληρώσετε την μέθοδο <code>findHarmonicMean</code> στην κλάση <code>FindHarmonicMean</code> στο πακέτο <code>gr.duth.ee.euclid.datastructures.harmonic_mean</code>.
+<br/>
+Η μέθοδος πρέπει να επιστρέφει έναν δεκαδικό (<code>double</code>) με τιμή ίση με τον αρμονικό μέσο του πίνακα που δίνεται ως όρισμα.
+<br/>
+Ο πίνακας που δίνεται ως όρισμα θα έχει πάντα μέγεθος μεγαλύτερο ή ίσο του 1 και δεν χρειάζεται να ελέγξετε περιπτώσεις όπου το μέγεθος είναι 0 ή το όρισμα <code>null</code>. Επιπλέον δεν θα υπάρχουν μηδενικά στον πίνακα.
+
+<h3>Είσοδος</h3>
+<p>Ένας μη κενός πίνακας ακεραίων (<code>int[]</code>) με τιμές στοιχείων στο κλειστό διάστημα [1, 100].</p>
+<h3>Έξοδος</h3>
+<p>Επιστροφή του αρμονικού μέσου.</p>
+
+<h3>Παράδειγμα</h3>
+
+<code>
+<pre style="border:1px solid #000">
+int[] values = new int[]{1, 2, 4};
+int foundMaxValue = gr.duth.ee.euclid.datastructures.find_max_value.FindMaxValue.findMaxValue(values);
+assert(foundMaxValue == 1.7143);
+</pre>
+</code>
+
+<p>
+  Καλή επιτυχία!
+</p>
+
+</body>
+</html>

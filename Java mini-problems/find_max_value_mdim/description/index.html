@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>find_max_value</title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<!-- Copyright (c) 2013 Remous-Aris Koutsiamanis. This file is part of DataStructuresAndAlgorithmsAssignments. 
+	DataStructuresAndAlgorithmsAssignments is free software: you can redistribute it and/or modify 
+	it under the terms of the GNU Affero Public License as published by the Free 
+	Software Foundation, either version 3 of the License, or (at your option) 
+	any later version. DataStructuresAndAlgorithmsAssignments is distributed in the hope that it will 
+	be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of 
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero Public 
+	License for more details. You should have received a copy of the GNU Affero 
+	Public License along with testing-framework. If not, see <http://www.gnu.org/licenses/>. 
+	Contributors: Remous-Aris Koutsiamanis - initial implementation -->
+</head>
+<body>
+
+<h2>
+  Εύρεση μέγιστου αριθμού μέσα σε πίνακα πινάκων ακεραίων.
+</h2>
+
+<h2>Σύνοψη</h2>
+<p>
+  Σε αυτή την άσκηση πρέπει να γράψετε κώδικα που θα επιστρέφει τον μέγιστο ακέραιο από έναν πίνακα πινάκων με ακεραίους.
+</p>
+<h2>Περιγραφή</h2>
+Στο πρόγραμμα θα συμπληρώσετε την μέθοδο <code>findMaxValue</code> στην κλάση <code>FindMaxValue</code> στο πακέτο <code>gr.duth.ee.euclid.datastructures.find_max_value_mdim</code>.
+<br/>
+Η μέθοδος πρέπει να επιστρέφει έναν ακέραιο (<code>int</code>) με τιμή ίση με τον μέγιστο ακέραιο που υπάρχει στον πίνακα που δίνεται ως όρισμα.
+<br/>
+Ο πίνακας που δίνεται ως όρισμα θα έχει πάντα μέγεθος μεγαλύτερο ή ίσο του 1 (σε όλες τις διαστάσεις) και δεν χρειάζεται να ελέγξετε περιπτώσεις όπου το μέγεθος είναι 0 ή το όρισμα <code>null</code>.
+
+<h3>Είσοδος</h3>
+<p>Ένας μη κενός πίνακας πινάκων ακεραίων (<code>int[][]</code>) με τιμές στοιχείων στο κλειστό διάστημα [-1000, 1000].</p>
+<h3>Έξοδος</h3>
+<p>Επιστροφή του μέγιστου ακεραίου.</p>
+
+<h3>Παράδειγμα</h3>
+
+<code>
+<pre style="border:1px solid #000">
+int[][] values = { { 1, 2, 3 }, { 4, 5 }, { 6, 7, 8, 9 }, { 10 } };
+int foundMaxValue = gr.duth.ee.euclid.datastructures.find_max_value_mdim.FindMaxValue.findMaxValue(values);
+assert(foundMaxValue == 10);
+</pre>
+</code>
+
+<p>
+  Καλή επιτυχία!
+</p>
+
+</body>
+</html>
